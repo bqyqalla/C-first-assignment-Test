@@ -33,7 +33,8 @@ string hobby = v._38.Services.Utility.AskHobby("Hobby");
 string fullName = v._38.Services.Utility.Getinfo("firstName", "lastName");
 
 
-
+// Extra Test.
+string number = v._38.Services.Utility.GetYear("birthYear", "birthMonth");
 
 
 Console.WriteLine(name);//Svar 1. 
@@ -45,4 +46,7 @@ Console.WriteLine(age); //Svar 3.
 Console.WriteLine($"{hobby} sounds boring"); // Svar 4.
 
 Console.WriteLine(fullName);  // svar 5.
+
+
+Console.WriteLine(number); // Extra Test.
 Console.ReadLine();

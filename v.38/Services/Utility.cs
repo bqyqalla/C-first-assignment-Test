@@ -39,11 +39,20 @@ namespace v._38.Services
 
 			string first = firstName.ToLower();
 				
-
 			return $"{last}, {first}";
 
         }
+		//Extra Test
+
+		public static string GetYear(string birthMonth, string birthYear)
+		{
+			string year = birthYear;
+
+			string month = birthMonth.ToUpper().TrimStart(); 
 		
+			return $"{month}, {year}";
+		}
+
 
 
 
